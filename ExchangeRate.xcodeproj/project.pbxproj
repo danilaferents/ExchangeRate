@@ -7,10 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F2DB5392A9FEC4A00216068 /* ExchangeRateAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2DB5382A9FEC4A00216068 /* ExchangeRateAssembly.swift */; };
+		5F2DB53B2A9FEC5600216068 /* ExchangeRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2DB53A2A9FEC5600216068 /* ExchangeRateViewController.swift */; };
+		5F2DB53D2A9FEE1E00216068 /* ExchangeRatePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2DB53C2A9FEE1E00216068 /* ExchangeRatePresenter.swift */; };
+		5F2DB5402A9FF38D00216068 /* RateDailyCell .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2DB53F2A9FF38D00216068 /* RateDailyCell .swift */; };
+		5F2DB5422AA059A600216068 /* LastUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2DB5412AA059A600216068 /* LastUpdateView.swift */; };
+		5F2DB5452AA0636100216068 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2DB5442AA0636100216068 /* Constants.swift */; };
+		5F2DB5472AA0B82600216068 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2DB5462AA0B82600216068 /* Configurable.swift */; };
+		5F2DB54A2AA0D84000216068 /* DailyRateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2DB5492AA0D84000216068 /* DailyRateModel.swift */; };
+		5F2DB54D2AA0ED1600216068 /* BitcoinRatesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2DB54C2AA0ED1600216068 /* BitcoinRatesService.swift */; };
+		5F2DB54F2AA0EE5400216068 /* ClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2DB54E2AA0EE5400216068 /* ClientError.swift */; };
+		5F2DB5512AA154D300216068 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2DB5502AA154D300216068 /* CoreDataManager.swift */; };
+		5F6E5AFD2AA8E673005F96D3 /* BitcoinRateEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E5AFB2AA8E673005F96D3 /* BitcoinRateEntity+CoreDataClass.swift */; };
+		5F6E5AFE2AA8E673005F96D3 /* BitcoinRateEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E5AFC2AA8E673005F96D3 /* BitcoinRateEntity+CoreDataProperties.swift */; };
+		5F6E5B002AA8F840005F96D3 /* AlertDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E5AFF2AA8F840005F96D3 /* AlertDisplayable.swift */; };
+		5F6E5B032AA9081B005F96D3 /* PickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E5B022AA9081B005F96D3 /* PickerVC.swift */; };
 		5F8A03D32A9F790600D8C31F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A03D22A9F790600D8C31F /* AppDelegate.swift */; };
 		5F8A03D52A9F790600D8C31F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A03D42A9F790600D8C31F /* SceneDelegate.swift */; };
-		5F8A03D72A9F790600D8C31F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A03D62A9F790600D8C31F /* ViewController.swift */; };
-		5F8A03DA2A9F790600D8C31F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8A03D82A9F790600D8C31F /* Main.storyboard */; };
 		5F8A03DD2A9F790600D8C31F /* ExchangeRate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A03DB2A9F790600D8C31F /* ExchangeRate.xcdatamodeld */; };
 		5F8A03DF2A9F790700D8C31F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8A03DE2A9F790700D8C31F /* Assets.xcassets */; };
 		5F8A03E22A9F790700D8C31F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8A03E02A9F790700D8C31F /* LaunchScreen.storyboard */; };
@@ -37,11 +50,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F2DB5382A9FEC4A00216068 /* ExchangeRateAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateAssembly.swift; sourceTree = "<group>"; };
+		5F2DB53A2A9FEC5600216068 /* ExchangeRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateViewController.swift; sourceTree = "<group>"; };
+		5F2DB53C2A9FEE1E00216068 /* ExchangeRatePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatePresenter.swift; sourceTree = "<group>"; };
+		5F2DB53F2A9FF38D00216068 /* RateDailyCell .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RateDailyCell .swift"; sourceTree = "<group>"; };
+		5F2DB5412AA059A600216068 /* LastUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastUpdateView.swift; sourceTree = "<group>"; };
+		5F2DB5442AA0636100216068 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5F2DB5462AA0B82600216068 /* Configurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		5F2DB5492AA0D84000216068 /* DailyRateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRateModel.swift; sourceTree = "<group>"; };
+		5F2DB54C2AA0ED1600216068 /* BitcoinRatesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinRatesService.swift; sourceTree = "<group>"; };
+		5F2DB54E2AA0EE5400216068 /* ClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientError.swift; sourceTree = "<group>"; };
+		5F2DB5502AA154D300216068 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		5F6E5AFB2AA8E673005F96D3 /* BitcoinRateEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BitcoinRateEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5F6E5AFC2AA8E673005F96D3 /* BitcoinRateEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BitcoinRateEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5F6E5AFF2AA8F840005F96D3 /* AlertDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDisplayable.swift; sourceTree = "<group>"; };
+		5F6E5B022AA9081B005F96D3 /* PickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerVC.swift; sourceTree = "<group>"; };
 		5F8A03CF2A9F790600D8C31F /* ExchangeRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8A03D22A9F790600D8C31F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F8A03D42A9F790600D8C31F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F8A03D62A9F790600D8C31F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5F8A03D92A9F790600D8C31F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F8A03DC2A9F790600D8C31F /* ExchangeRate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExchangeRate.xcdatamodel; sourceTree = "<group>"; };
 		5F8A03DE2A9F790700D8C31F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F8A03E12A9F790700D8C31F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +104,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F2DB5372A9FEC1000216068 /* ExchangeRateScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5F2DB5482AA0D82300216068 /* Models */,
+				5F2DB53E2A9FF31900216068 /* Views */,
+				5F2DB5382A9FEC4A00216068 /* ExchangeRateAssembly.swift */,
+				5F2DB53A2A9FEC5600216068 /* ExchangeRateViewController.swift */,
+				5F2DB53C2A9FEE1E00216068 /* ExchangeRatePresenter.swift */,
+			);
+			path = ExchangeRateScreen;
+			sourceTree = "<group>";
+		};
+		5F2DB53E2A9FF31900216068 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F2DB53F2A9FF38D00216068 /* RateDailyCell .swift */,
+				5F2DB5412AA059A600216068 /* LastUpdateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F2DB5432AA0635400216068 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5F2DB5442AA0636100216068 /* Constants.swift */,
+				5F2DB5462AA0B82600216068 /* Configurable.swift */,
+				5F2DB54E2AA0EE5400216068 /* ClientError.swift */,
+				5F6E5AFF2AA8F840005F96D3 /* AlertDisplayable.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5F2DB5482AA0D82300216068 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F2DB5492AA0D84000216068 /* DailyRateModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F2DB54B2AA0ECEC00216068 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E5AFB2AA8E673005F96D3 /* BitcoinRateEntity+CoreDataClass.swift */,
+				5F6E5AFC2AA8E673005F96D3 /* BitcoinRateEntity+CoreDataProperties.swift */,
+				5F2DB54C2AA0ED1600216068 /* BitcoinRatesService.swift */,
+				5F2DB5502AA154D300216068 /* CoreDataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5F6E5B012AA90803005F96D3 /* PickerVC */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E5B022AA9081B005F96D3 /* PickerVC.swift */,
+			);
+			path = PickerVC;
+			sourceTree = "<group>";
+		};
 		5F8A03C62A9F790600D8C31F = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +186,16 @@
 		5F8A03D12A9F790600D8C31F /* ExchangeRate */ = {
 			isa = PBXGroup;
 			children = (
+				5F2DB54B2AA0ECEC00216068 /* Services */,
+				5F2DB5432AA0635400216068 /* Common */,
 				5F8A03D22A9F790600D8C31F /* AppDelegate.swift */,
 				5F8A03D42A9F790600D8C31F /* SceneDelegate.swift */,
-				5F8A03D62A9F790600D8C31F /* ViewController.swift */,
-				5F8A03D82A9F790600D8C31F /* Main.storyboard */,
 				5F8A03DE2A9F790700D8C31F /* Assets.xcassets */,
 				5F8A03E02A9F790700D8C31F /* LaunchScreen.storyboard */,
 				5F8A03E32A9F790700D8C31F /* Info.plist */,
 				5F8A03DB2A9F790600D8C31F /* ExchangeRate.xcdatamodeld */,
+				5F2DB5372A9FEC1000216068 /* ExchangeRateScreen */,
+				5F6E5B012AA90803005F96D3 /* PickerVC */,
 			);
 			path = ExchangeRate;
 			sourceTree = "<group>";
@@ -236,7 +323,6 @@
 			files = (
 				5F8A03E22A9F790700D8C31F /* LaunchScreen.storyboard in Resources */,
 				5F8A03DF2A9F790700D8C31F /* Assets.xcassets in Resources */,
-				5F8A03DA2A9F790600D8C31F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +347,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F2DB5472AA0B82600216068 /* Configurable.swift in Sources */,
+				5F6E5AFE2AA8E673005F96D3 /* BitcoinRateEntity+CoreDataProperties.swift in Sources */,
+				5F6E5AFD2AA8E673005F96D3 /* BitcoinRateEntity+CoreDataClass.swift in Sources */,
+				5F2DB54F2AA0EE5400216068 /* ClientError.swift in Sources */,
+				5F2DB5392A9FEC4A00216068 /* ExchangeRateAssembly.swift in Sources */,
+				5F2DB5422AA059A600216068 /* LastUpdateView.swift in Sources */,
+				5F2DB54A2AA0D84000216068 /* DailyRateModel.swift in Sources */,
+				5F6E5B002AA8F840005F96D3 /* AlertDisplayable.swift in Sources */,
+				5F2DB53D2A9FEE1E00216068 /* ExchangeRatePresenter.swift in Sources */,
+				5F2DB5402A9FF38D00216068 /* RateDailyCell .swift in Sources */,
+				5F2DB53B2A9FEC5600216068 /* ExchangeRateViewController.swift in Sources */,
 				5F8A03DD2A9F790600D8C31F /* ExchangeRate.xcdatamodeld in Sources */,
-				5F8A03D72A9F790600D8C31F /* ViewController.swift in Sources */,
+				5F6E5B032AA9081B005F96D3 /* PickerVC.swift in Sources */,
+				5F2DB54D2AA0ED1600216068 /* BitcoinRatesService.swift in Sources */,
 				5F8A03D32A9F790600D8C31F /* AppDelegate.swift in Sources */,
 				5F8A03D52A9F790600D8C31F /* SceneDelegate.swift in Sources */,
+				5F2DB5512AA154D300216068 /* CoreDataManager.swift in Sources */,
+				5F2DB5452AA0636100216068 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +401,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5F8A03D82A9F790600D8C31F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F8A03D92A9F790600D8C31F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5F8A03E02A9F790700D8C31F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -445,8 +537,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExchangeRate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,8 +564,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExchangeRate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
